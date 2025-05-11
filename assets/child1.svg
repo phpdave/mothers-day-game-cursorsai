@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="90" fill="#FFB6C1"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="85" r="45" fill="#FFE4E1"/>
+    
+    <!-- Eyes -->
+    <circle cx="80" cy="75" r="8" fill="#4A4A4A"/>
+    <circle cx="120" cy="75" r="8" fill="#4A4A4A"/>
+    
+    <!-- Blush -->
+    <circle cx="70" cy="90" r="10" fill="#FF69B4" opacity="0.3"/>
+    <circle cx="130" cy="90" r="10" fill="#FF69B4" opacity="0.3"/>
+    
+    <!-- Smile -->
+    <path d="M85 100 Q100 115 115 100" stroke="#4A4A4A" stroke-width="3" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M55 85 Q100 20 145 85" fill="#8B4513"/>
+    <path d="M55 85 Q100 40 145 85" fill="#8B4513"/>
+    
+    <!-- Hair details -->
+    <path d="M60 90 Q100 50 140 90" fill="#8B4513"/>
+    <path d="M65 95 Q100 60 135 95" fill="#8B4513"/>
+    
+    <!-- Bow -->
+    <path d="M145 85 Q160 75 155 90 Q150 105 145 85" fill="#FF69B4"/>
+    <path d="M145 85 Q130 75 135 90 Q140 105 145 85" fill="#FF69B4"/>
+    <circle cx="145" cy="85" r="5" fill="#FF1493"/>
+</svg> 

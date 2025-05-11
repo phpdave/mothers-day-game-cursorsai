@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background circle -->
+    <circle cx="100" cy="100" r="90" fill="#87CEEB"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="85" r="45" fill="#FFE4E1"/>
+    
+    <!-- Eyes -->
+    <circle cx="80" cy="75" r="8" fill="#4A4A4A"/>
+    <circle cx="120" cy="75" r="8" fill="#4A4A4A"/>
+    
+    <!-- Blush -->
+    <circle cx="70" cy="90" r="10" fill="#FF69B4" opacity="0.3"/>
+    <circle cx="130" cy="90" r="10" fill="#FF69B4" opacity="0.3"/>
+    
+    <!-- Smile -->
+    <path d="M85 100 Q100 115 115 100" stroke="#4A4A4A" stroke-width="3" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M55 85 Q100 20 145 85" fill="#000000"/>
+    <path d="M55 85 Q100 40 145 85" fill="#000000"/>
+    
+    <!-- Hair details -->
+    <path d="M60 90 Q100 50 140 90" fill="#000000"/>
+    <path d="M65 95 Q100 60 135 95" fill="#000000"/>
+    
+    <!-- Cap -->
+    <path d="M70 70 Q100 40 130 70" fill="#4169E1"/>
+    <path d="M70 70 L130 70 L120 85 L80 85 Z" fill="#4169E1"/>
+    <circle cx="100" cy="60" r="5" fill="#FFD700"/>
+</svg> 

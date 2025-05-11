@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother's Day Love Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Mother's Day Game!</h1>
+            <p class="subtitle">Click on the children to see their special messages</p>
+        </header>
+
+        <div class="game-area">
+            <div class="children-container">
+                <!-- Children will be added here dynamically -->
+            </div>
+            <div class="message-display">
+                <p id="message">Click on a child to see their message!</p>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="hearts-collected">
+                <span>Hearts: </span>
+                <span id="heart-count">0</span>/4
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html> 
